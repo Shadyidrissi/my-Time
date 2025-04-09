@@ -107,7 +107,7 @@ body {
 }
 #content{
   width: 1400px;
-  min-height: 200px;
+  min-height: 80px;
   background-color: white;
   margin: 20px 0;
 }
