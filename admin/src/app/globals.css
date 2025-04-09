@@ -26,6 +26,7 @@ body {
 
 /* ! Nav Bar */
 #navbar {
+  padding-top: 100px;
   width: 200px;
   height: 1000px;
   background-color: white;
@@ -92,3 +93,64 @@ body {
   font-weight: 800;  
 }
 /* ! Header END */
+/* ! Home */
+#home{
+  padding: 10px 20px;
+}
+#title{
+  font-size: 28px;
+  font-weight: 700;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 10px;
+  width: 350px;
+}
+#content{
+  width: 1400px;
+  min-height: 200px;
+  background-color: white;
+  margin: 20px 0;
+}
+#card-content{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  border-bottom: 1px solid #0000004d;
+}
+#title-card{
+  width: 400px;
+  font-size: 22px;
+  font-weight: 700;
+}
+#description-content{
+  width: 600px;
+  font-size: 18px;
+  color: #000000a1;
+  font-weight: 600;
+}
+#date-content{
+  width: 150px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #0000009d;
+}
+#button-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90px;
+}
+#button-content>button{
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#button-content>button:hover{
+  background-color: #000000;
+  color: white;
+
+}
+/* ! END Home */
