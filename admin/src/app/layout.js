@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={{ overflowY: "hidden" }} id="layout" >
+      <body id="layout" >
         <Navbar />
         <div id="body-header">
           <Header />
