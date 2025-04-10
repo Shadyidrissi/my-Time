@@ -7,7 +7,7 @@ export default function Home() {
       <div id="content">
         <div id="card-content">
           <li id="title-card">title</li>
-          <li id="description-content">description</li>
+          <li id="description-content">description </li>
           <li id="date-content">date</li>
           <li id="button-content">
             <button>
