@@ -81,6 +81,16 @@ body {
   margin-left: 30px;
   position: relative;
 }
+#icon-wallet{
+  height: 50px;
+  width: 12 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
 #icon-notification:hover{
   color: red;
 }
