@@ -202,3 +202,127 @@ body {
   color: black;
 }
 /* ! END Profiile */
+/* ! Shop */
+#content-shop{
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  margin: 20px;
+}
+#card-shop{
+  height: 250px;
+  width: 250px;
+  margin: 0 10px;
+  background-color: #f0f0f0;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#card-shop>img{
+  height: 150px;
+  width: 150px;
+  margin: 10px 0;
+  background-color: #000000;
+}
+#card-shop>h2{
+  font-size: 20px;
+  font-weight: 700;
+}
+#card-shop>p{
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000a1;
+}
+#card-shop>p>span{
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(228, 85, 85);
+}
+#buttons{
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  display: flex;
+  flex-direction: column;
+}
+#buttons>button{
+  padding: 5px;
+  border-radius: 50%;
+  /* background-color: rgba(185, 175, 175, 0.459); */
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.3px solid #000000;
+  cursor: pointer;
+  stroke: black;
+}
+#buttons>button:hover{
+  background-color: #00000046;
+  stroke: white;
+}
+#title>a:hover{
+  background-color: rgba(245, 245, 245, 0.493);
+}
+#title>a{
+  padding: 10px;
+  margin: 0 10px;
+  background-color: #f0f0f0;
+  color: #000000;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  width: 44px;
+}
+/* ! END Shop */
+/* ! New Shop */
+#content-new-shop{
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  margin: 20px;
+  background-color: rgb(231, 208, 164);
+}
+#content-new-shop>li{
+  display: block;
+  margin: 20px 0;
+}
+#content-new-shop>li>img{
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #000000;
+}
+#content-new-shop>li>button{
+  padding:5px 10px ;
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#content-new-shop>li>button:hover{
+  background-color: #000000;
+  color: white;
+}
+#content-new-shop>li>label{
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 700;
+}
+#content-new-shop>li>input{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 5px;
+}
+/* ! END New Shop */
